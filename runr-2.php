@@ -28,7 +28,7 @@ $DigiCit_214 = getDigiCit_214();
 
 // execute R script from shell
 
-$command = "Rscript /var/www/html/Random-block-1.R $QID $Homo21 $Homo22 $Homo23 $Homo24 $Homo25 $Homo26 $Homo27 $DigiCit_21 $DigiCit_22 $DigiCit_23 $DigiCit_24 $DigiCit_25 $DigiCit_26 $DigiCit_27 $DigiCit_28 $DigiCit_29 $DigiCit_210 $DigiCit_211 $DigiCit_212 $DigiCit_213 $DigiCit_214";
+$command = "Rscript /var/www/html/Random-block-2.R $QID $Homo21 $Homo22 $Homo23 $Homo24 $Homo25 $Homo26 $Homo27 $DigiCit_21 $DigiCit_22 $DigiCit_23 $DigiCit_24 $DigiCit_25 $DigiCit_26 $DigiCit_27 $DigiCit_28 $DigiCit_29 $DigiCit_210 $DigiCit_211 $DigiCit_212 $DigiCit_213 $DigiCit_214";
 
 $out = trim(shell_exec($command));
 $data = explode(',', $out);

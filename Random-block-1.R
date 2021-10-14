@@ -62,7 +62,7 @@ load(file="/var/www/html/new.RData")
 #ID
 
 QID = args[1]
-
+#cat(sprintf("hola"))
 #### Data Management
 
 #Cambio de nombres en bdata y part.data y tratamientos

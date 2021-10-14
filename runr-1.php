@@ -33,7 +33,7 @@ $command = "Rscript /var/www/html/Random-block-1.R $QID $Homo1 $Homo2 $Homo3 $Ho
 $out = trim(shell_exec($command));
 $data = explode(',', $out);
 
-#echo($data);
+#echo($command);
 
 echo "data0=" . $data[0] . "&";
 echo "data1=" . $data[1];

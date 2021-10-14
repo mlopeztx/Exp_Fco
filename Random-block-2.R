@@ -47,7 +47,7 @@ if(length(args) != 22){
 
 # Load data
 #load(file="/var/www/r.cess.cl/public_html/sp/new.RData")
-load(file="new.RData")
+load(file="/var/www/html/new.RData")
 
 #argumentos
 
@@ -60,7 +60,7 @@ load(file="new.RData")
 #ID
 
 QID = args[1]
-
+#cat(sprintf("hola"))
 #### Data Management
 
 #Cambio de nombres en bdata y part.data y tratamientos
